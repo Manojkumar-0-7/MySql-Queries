@@ -1,0 +1,4 @@
+use sys;
+create table a(id int,name varchar(20),dept varchar(10),salary int);
+insert into a values (1,"John", "HR", 50000);
+select * from a;
